@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import BasicExample from './BasicExample';
 
 function App() {
   return (
     <div className="App">
-      Test
+      <BasicExample />
     </div>
   );
 }
