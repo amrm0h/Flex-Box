@@ -3,7 +3,8 @@ import './App.css';
 // import NavBar from './NavBar';
 
 // import EqualSizedColumns from './EqualSizedColumns';
-import ResponsiveNav from './ResponsiveNav';
+// import ResponsiveNav from './ResponsiveNav';
+import ResponsivePhotoGallary from './ResponsivePhotoGallary';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Rearrenged /> */}
       {/* <NavBar /> */}
       {/* <EqualSizedColumns /> */}
-      <ResponsiveNav />
+      {/* <ResponsiveNav /> */}
+      <ResponsivePhotoGallary />
     </div>
   );
 }
