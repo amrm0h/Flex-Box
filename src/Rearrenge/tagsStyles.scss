@@ -1,13 +1,18 @@
 
 
 .container {
-
+  // solve
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  
   // main
   padding: 10px 15px;
   width: 450px;
 }
 .item {
-
   // main
   color: white;
   background-color: #4d7298;
@@ -15,4 +20,11 @@
   border-radius: 5px;
   padding: 5px;
   font-size: 15px;
+  
+  // solve
+  flex: 1;
+  
+  font-size: 20px;
+  padding: 5px 20px 5px 5px;
+  margin: 0;
 }
