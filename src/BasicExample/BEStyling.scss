@@ -1,0 +1,78 @@
+.container {
+  border: 10px solid gold;
+  min-height: 100vh;
+
+
+  // 1. display 
+  display: flex;
+
+  // 2. flex-direction (default: row)
+  flex-direction: row;
+
+  // 3. flex-wrap (default: nowrap)
+  flex-wrap: nowrap;
+
+  /*
+    ** flex-flow: flex-dire flex-wrap ** 
+    default row nowrap
+  */
+  flex-flow: row nowrap;
+
+  /*
+    4. justify-content (items distributed on main axis)
+    default flex-start
+  */ 
+  justify-content: flex-start;
+
+  /*
+    5. align-items (items distributed on cross axis)
+    default stretch; as per container height
+  */ 
+  // align-items: stretch;
+
+  /*
+    6. gap, row-gap, column-gap (distances between items)
+    default 0 
+  */ 
+  gap: 0;
+  row-gap: 0;
+  column-gap: 0;
+}
+
+.item {
+  // width: 400px;
+
+  /*
+    1. order ; all items has 0 order at first
+    default 0;
+  */ 
+  order: 0;
+
+  /*
+    2. flex-grow ; grow of item if there is available space
+    default 0;
+  */ 
+  flex-grow: 0;
+
+  /*
+    3. flex-shrink ; shrink of item if there is no more space
+    default 1;
+  */ 
+  flex-shrink: 1;
+
+  /*
+    4. flex-basis ; default size of an element before the remaining space is distributed  
+    default auto;
+  */ 
+  flex-basis: auto;
+
+  /*
+    5. align-self ; align myself on cross axis
+    default flex-start;
+  */ 
+  align-self: flex-start;
+}
+
+.box2 {
+  // align-self: flex-end;
+}
