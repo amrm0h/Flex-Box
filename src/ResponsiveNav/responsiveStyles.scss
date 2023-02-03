@@ -5,6 +5,9 @@
   margin: 0; 
   background: deepskyblue;
 
+  // solve
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navigation a {
@@ -12,6 +15,9 @@
   display: block;
   padding: 1em;
   color: white;
+  
+  // solve
+  text-align: center;
 }
 
 .navigation a:hover {
@@ -20,11 +26,14 @@
 
 @media all and (max-width: 800px) {
   .navigation {
+    justify-content: space-around;
   }
 }
 
 @media all and (max-width: 600px) {
   .navigation {
+    // solve
+    flex-direction: column;
     // main styles
     padding: 0;
   }
