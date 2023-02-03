@@ -10,7 +10,7 @@ const texts = [
 const EqualSizedColumns = () => {
   return (
     <>
-      <img src="images/equalSizedColumn.png" height={300} alt="" />
+      <img src="images/equalSizedColumn.png" height={300} width="100%" alt="" />
       <div className='container'>
         {texts.map(text => (
           <div className='item'>
