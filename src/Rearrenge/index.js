@@ -17,8 +17,8 @@ const texts = [
 const Rearrenged = () => {
   return (
     <>
-      <div className='container'>
       <img src="images/tags.png" height={200} width={450} alt="" />
+      <div className='container'>
         {texts.map(text => (
           <p className='item'>
             {text}
