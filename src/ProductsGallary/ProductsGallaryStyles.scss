@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+}
+
+.item {
+  width: calc(100%/3 - 40px);
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .item {
+    width: 100%;
+  }
+}
