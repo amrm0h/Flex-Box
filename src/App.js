@@ -5,7 +5,7 @@ import './App.css';
 // import EqualSizedColumns from './EqualSizedColumns';
 // import ResponsiveNav from './ResponsiveNav';
 // import ResponsivePhotoGallary from './ResponsivePhotoGallary';
-import ProductsGallary from './ProductsGallary';
+// import ProductsGallary from './ProductsGallary';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
       {/* <EqualSizedColumns /> */}
       {/* <ResponsiveNav /> */}
       {/* <ResponsivePhotoGallary /> */}
-      <ProductsGallary />
+      {/* <ProductsGallary /> */}
     </div>
   );
 }
