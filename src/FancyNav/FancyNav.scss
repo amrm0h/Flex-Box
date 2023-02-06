@@ -1,0 +1,60 @@
+// Basic styles
+.wrapper {
+  min-height: 100vh;
+  max-width: 1400px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.container {
+  overflow: hidden;
+  list-style: none;
+  border: 1px solid rgba(0, 0, 0, .4);
+  border-radius: 5px;
+  // background: rgb(34,193,195);
+  // background: linear-gradient(185deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+  background: rgb(231,235,235);
+  background: linear-gradient(185deg, rgba(231,235,235,1) 0%, rgba(196,195,194,1) 100%);
+  & li {
+    cursor: pointer;
+    &:hover {
+      // background-color: #d1e352;
+      background-color: #bebebe;
+    }
+  }
+}
+
+// solve
+.container {
+  display: flex;
+  & li {
+    flex: 3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  & li.social {
+    flex: 1;
+  }
+}
+
+@media all and (max-width: 850px) {
+  .container {
+    flex-wrap: wrap;
+    & li {
+      flex-basis: 50%;
+    }
+  }
+}
+
+@media all and (max-width: 600px) {
+  .container {
+    & li {
+      flex-basis: 100%;
+    }
+  }
+}
