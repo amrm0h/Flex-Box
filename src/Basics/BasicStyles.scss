@@ -60,7 +60,7 @@
   flex-shrink: 1;
 
   /*
-    4. flex-basis ; default size of an element before the remaining space is distributed  
+    4. flex-basis ; default size (height if column, width if row) of an element before the remaining space is distributed  
     default: auto;
   */ 
   flex-basis: auto;
@@ -75,3 +75,20 @@
 .box2 {
   // align-self: flex-end;
 }
+
+
+// .container {
+//   min-height: 100vh;
+//   // flex-direction: column;
+//   // justify-content: space-between;
+// }
+
+// .box {
+//   // flex-grow: 1;
+// }
+
+// .box2 {
+//   flex-basis: 400px; // width if direct row 
+//   // but we can't say ⤵ 
+//   // min-width: 400px; // wrong as it will have this forever in every screen size
+// }
