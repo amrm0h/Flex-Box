@@ -4,6 +4,6 @@ const colors = [
 
 const createItems = (length = 12) => Array
   .from({ length }, (_, i) => i + 1)
-  .map((num, i) => ({ name: num, bg: colors[i] }));
+  .map((num, i) => ({ name: num, bg: colors[i] || '#002ee4' }));
 
 export default createItems;

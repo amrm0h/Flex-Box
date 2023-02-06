@@ -1,5 +1,5 @@
 .App {
-  /* text-align: center; */
+  text-align: center;
 }
 
 .App-logo {
@@ -41,6 +41,7 @@
   font-size: 40px;
   color: white;
   text-shadow: 1px 1px 2px pink;
+  box-shadow: 2px 0px 5px gray;
 }
 
 ul {
