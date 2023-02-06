@@ -1,6 +1,6 @@
 import './App.css';
-import FancyNavBar from './FancyNav';
-// import BasicExample from './Basics';
+// import FancyNavBar from './FancyNav';
+import BasicExample from './Basics';
 // import Rearrenged from './Rearrenge';
 // import NavBar from './NavBar';
 
@@ -18,8 +18,8 @@ function App() {
       {/* <ResponsiveNav /> */}
       {/* <ResponsivePhotoGallary /> */}
       {/* <ProductsGallary /> */}
-      {/* <BasicExample /> */}
-      <FancyNavBar />
+      {/* <FancyNavBar /> */}
+      <BasicExample />
     </div>
   );
 }
