@@ -1,7 +1,7 @@
 import React from 'react';
 import './FancyNav.scss';
 
-const items = ['item 1', 'item 1', 'item 1', 'item 1'];
+const items = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'];
 const icons = [
   '/images/icons/facebook.svg',
   '/images/icons/instagram.svg',
@@ -16,13 +16,11 @@ const FancyNavBar = () => {
         {items.map((item, index) => (
           <li key={String(index)} className='item'>{item}</li>
         ))}
-        <li className='socials'>
-          {icons.map((icon, index) => (
-            <span key={String(index)}>
-              <img src={icon} alt="" width={20} height={20} />
-            </span>
-          ))}
-        </li>
+        {icons.map((icon, index) => (
+          <li key={String(index)} className="social">
+            <img src={icon} alt="" width={20} height={20} />
+          </li>
+        ))}
       </ul>
     </div>
   )

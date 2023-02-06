@@ -17,27 +17,19 @@
   background: rgb(34,193,195);
   background: linear-gradient(185deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
   & li {
-    padding: 0 40px;
-  }
-}
-
-li:not(.socials) {
-  cursor: pointer;
-  &:hover {
-    background-color: #d1e352;
-  }
-}
-
-li.socials {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-inline: 0;
-  span {
     cursor: pointer;
-    padding: 10px;
     &:hover {
       background-color: #d1e352;
-    } 
+    }
   }
 }
 
+// solve
+.container {
+}
+
+@media all and (max-width: 1000px) {
+}
+
+@media all and (max-width: 640px) {
+}
