@@ -27,24 +27,34 @@
   }
 }
 
-solve
+// solve
 .container {
+  display: flex;
   & li {
+    flex: 3;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   & li.social {
+    flex: 1;
   }
 }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 850px) {
   .container {
     flex-wrap: wrap;
     & li {
-    }
-    & li.social {
+      flex-basis: 50%;
     }
   }
 }
 
-@media all and (max-width: 640px) {
-  
+@media all and (max-width: 600px) {
+  .container {
+    & li {
+      flex-basis: 100%;
+    }
+  }
 }

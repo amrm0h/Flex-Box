@@ -1,7 +1,7 @@
 import React from 'react';
 import './FancyNav.scss';
 
-const items = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5'];
+const items = ['item 1', 'item 2', 'item 3', 'item 4', 'item 5', 'item 6'];
 const icons = [
   '/images/icons/facebook.svg',
   '/images/icons/instagram.svg',
