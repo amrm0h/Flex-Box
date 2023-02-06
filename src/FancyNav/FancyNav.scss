@@ -28,10 +28,15 @@ li:not(.socials) {
   }
 }
 
-li.socials span {
-  cursor: pointer;
-  padding: 10px;
-  &:hover {
-    background-color: #d1e352;
+li.socials {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-inline: 0;
+  span {
+    cursor: pointer;
+    padding: 10px;
+    &:hover {
+      background-color: #d1e352;
+    } 
   }
 }
