@@ -1,25 +1,25 @@
 import './App.css';
-// import FancyNavBar from './FancyNav';
-import BasicExample from './Basics';
-// import Rearrenged from './Rearrenge';
+// import ResponsiveNav from './ResponsiveNav';
+// import MovieTags from './MovieTags';
+import FancyNavBar from './FancyNav';
+// import BasicExample from './Basics';
 // import NavBar from './NavBar';
 
 // import EqualSizedColumns from './EqualSizedColumns';
-// import ResponsiveNav from './ResponsiveNav';
 // import ResponsivePhotoGallary from './ResponsivePhotoGallary';
 // import ProductsGallary from './ProductsGallary';
 
 function App() {
   return (
     <div className="App">
-      {/* <Rearrenged /> */}
+      {/* <ResponsiveNav /> */}
+      {/* <MovieTags /> */}
+      <FancyNavBar />
       {/* <NavBar /> */}
       {/* <EqualSizedColumns /> */}
-      {/* <ResponsiveNav /> */}
       {/* <ResponsivePhotoGallary /> */}
       {/* <ProductsGallary /> */}
-      {/* <FancyNavBar /> */}
-      <BasicExample />
+      {/* <BasicExample /> */}
     </div>
   );
 }

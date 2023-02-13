@@ -20,6 +20,8 @@
   background: linear-gradient(185deg, rgba(231,235,235,1) 0%, rgba(196,195,194,1) 100%);
   & li {
     cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
     &:hover {
       // background-color: #d1e352;
       background-color: #bebebe;
@@ -27,34 +29,30 @@
   }
 }
 
-// solve
+// styles
 .container {
   display: flex;
-  & li {
-    flex: 3;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  & li.social {
-    flex: 1;
-  }
+}
+
+.container .item {
+  flex-grow: 5;
+}
+
+.container .social {
+  flex-grow: 1;
 }
 
 @media all and (max-width: 850px) {
   .container {
     flex-wrap: wrap;
-    & li {
-      flex-basis: 50%;
-    }
+  }
+  .container .item {
+    flex-basis: 50%;
   }
 }
 
-@media all and (max-width: 600px) {
-  .container {
-    & li {
-      flex-basis: 100%;
-    }
+@media screen and (max-width: 600px) {
+  .container .item {
+    flex-basis: 100%;
   }
 }

@@ -11,7 +11,7 @@ const icons = [
 
 const FancyNavBar = () => {
   return (
-    <div className='wrapper'>
+    <nav className='wrapper'>
       <ul className='container'>
         {items.map((item, index) => (
           <li key={String(index)} className='item'>{item}</li>
@@ -22,7 +22,7 @@ const FancyNavBar = () => {
           </li>
         ))}
       </ul>
-    </div>
+    </nav>
   )
 }
 

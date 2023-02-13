@@ -4,8 +4,8 @@ import './responsiveStyles.scss';
 const ResponsiveNav = () => {
   return (
     <>
-      <img src='/images/navResponsive.png' alt="" width="100%" />
-      <hr />
+      {/* <img src='/images/navResponsive.png' alt="" width="100%" /> */}
+      {/* <hr /> */}
       <ul className="navigation">
         <li><a href="#">Home</a></li>
         <li><a href="#">About</a></li>
